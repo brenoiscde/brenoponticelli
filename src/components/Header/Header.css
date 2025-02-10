@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 1rem; 
+}
+ul{
+    display: flex;
+    border: 1px solid var(--color-ligh-grey);
+    background-color: #fff;
+    border-radius: 67px;
+    padding: 5px;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.08);
+}
+ul a {
+    text-decoration: none;
+    border-radius: 200px;
+}
+.menu__link.active{
+    background-color: var(--color-Orange);
+}
+ul a li{
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    list-style: none;
+    margin: 14px 30px;
+    color: var(--color-medium-grey);
+}
+.home{
+    color: #fff;
+}
+@media(max-width:730px){
+    header{
+        display: none;
+    }
+}

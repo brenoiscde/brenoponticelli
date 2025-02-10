@@ -1,0 +1,41 @@
+.container__slider{
+    display: flex;
+    flex-direction: column;
+    padding: 0 250px;
+    margin-top: 50px;
+}
+.image__card{
+    width: 400px;
+    height: 430px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.image__card:hover{
+    transform: scale(1.03);
+}
+.name__card{
+    font-size: 24px;
+}
+.name__type{
+    font-size: 19px;
+    color: var(--color-Orange);
+    margin-top: 10px;
+}
+
+.card{
+    padding: 20px 20px;
+    text-align: center;
+}
+a{
+  outline: none;
+}
+@media(max-width:1800px){
+    .image__card{
+        max-width: 100%;
+       
+    }
+    .container__slider{
+        padding: 0 180px;
+    }
+}

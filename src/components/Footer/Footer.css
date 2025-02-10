@@ -1,0 +1,16 @@
+footer{
+    background: var(--color-black);
+    width: 100%;
+    text-align: center;
+    padding: 26px 0;
+    max-width: 100%;
+    flex-wrap: nowrap;
+}
+p{
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+}
+span{
+    color: var(--color-Orange);
+}
